@@ -1,14 +1,47 @@
 Singleline package for Sublime Text 2
-==========
+=====================================
+
 SingleLine is a CSS Single to Multiline Style Switch plugin for Sublime Text 2.
 
-It is based upon code given at:
+It will convert between multi-line rules:
 
-[Sublime Text Forums](http://www.sublimetext.com/forum/viewtopic.php?f=6&t=2237)
+    body {
+        height: 600px;
+        width: 600px;
+        margin: auto;
+        border: 1px solid #000;
+    }
 
-Keyboard Shortcut
------------------
-To toggle between single-line and multiline select the css converted and press `ctrl+shift+j`.
+to
+
+    body { height: 600px; width: 600px; margin: auto; border: 1px solid #000; }
+
+--
+It also works in less / scss with nested selectors:
+
+    .upperclass{
+       .middleclass{
+            .testclass{
+                margin: 20px;
+                padding: 10px;
+                background: #f00;
+            }
+        }
+    }
+
+to
+
+    .upperclass{
+       .middleclass{
+            .testclass{ margin: 20px; padding: 10px; background: #f00; }
+        }
+    }
+
+Keyboard Shortcuts
+------------------
+To toggle between single-line and multiline format you can either select the block or move the cursor inside the block and press `ctrl+alt+j`.
+
+You can also expand selection to css rule with `ctrl+shift+r`.
 
 Installing
 ----------
@@ -32,6 +65,4 @@ The "Packages" directory is located at:
     `%APPDATA%/Sublime Text 2/Packages/`
 
 
-
 That's it!
-
