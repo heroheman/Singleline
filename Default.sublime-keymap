@@ -1,0 +1,6 @@
+[
+    {
+        "command": "toggle_single_line_css",
+        "keys": ["ctrl+alt+j"]
+    }
+]
