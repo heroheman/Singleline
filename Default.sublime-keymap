@@ -1,0 +1,4 @@
+[
+    {"command": "toggle_single_line_css", "keys": ["ctrl+alt+j"]},
+    {"command": "expand_to_css_rule", "keys": ["ctrl+shift+r"]}
+]
