@@ -66,3 +66,5 @@ The "Packages" directory is located at:
 
 
 That's it!
+
+[![endorse](http://api.coderwall.com/heroheman/endorsecount.png)](http://coderwall.com/heroheman)
