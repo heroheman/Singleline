@@ -68,3 +68,6 @@ The "Packages" directory is located at:
 That's it!
 
 [![endorse](http://api.coderwall.com/heroheman/endorsecount.png)](http://coderwall.com/heroheman)
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/heroheman/singleline/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
